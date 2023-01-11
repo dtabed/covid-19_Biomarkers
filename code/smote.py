@@ -1,4 +1,5 @@
 # SMOTE method to oversample the minority class
+from collections import Counter
 from imblearn.over_sampling import SMOTE
 from matplotlib import pyplot
 from numpy import where
